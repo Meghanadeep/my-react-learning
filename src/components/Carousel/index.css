@@ -1,0 +1,44 @@
+.image {
+  width: 1000px;
+  border-radius: 50px;
+}
+
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.next {
+  position: absolute;
+  right: 250px;
+  cursor: pointer;
+}
+
+.prev {
+  position: absolute;
+  left: 250px;
+  cursor: pointer;
+}
+
+.dot {
+  width:30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid pink;
+  background-color: pink;
+  margin:10px;
+  cursor: pointer;
+}
+
+.dot.active {
+ background-color: plum;
+}
+
+.dot-container {
+  display: flex;
+  top: 100%;
+  position: absolute;
+}
