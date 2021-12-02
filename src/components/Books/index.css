@@ -1,0 +1,56 @@
+.buySell-container {
+    background-color: black;
+}
+.buy {
+  padding: 20px;
+  width: 300px;
+  color: white;
+  background-color:rgb(45,175,52);
+  cursor:pointer
+}
+
+.sell {
+  padding: 20px;
+  width: 300px;
+  color: white;
+  background-color: rgb(250,103,45);
+  cursor: pointer;
+}
+
+.sell-rows {
+    list-style: none;
+}
+.buy-rows {
+    list-style: none;
+}
+
+.indvLiItem {
+    list-style: none;
+    margin:10px;
+    padding:10px;
+    animation: fade linear 2s;
+}
+
+@fade {
+    
+}
+.bookId {
+    color: white;
+    padding:10px;
+    margin: 10px;
+}
+.bookPriceBuy {
+  color: rgb(45,175,52);
+  padding:10px;
+    margin: 10px;
+}
+.bookPriceSell {
+    color: rgb(250,103,45);
+    padding:10px;
+    margin: 10px;
+}
+
+.bookId .bookPriceBuy .bookPriceSell {
+    padding:10px;
+    margin:10px;
+} 
